@@ -4,7 +4,7 @@
 ____ 
 ### This repository contains examples of my work. 
 ____
-### You can check out all the docs here:
+### You can check out all docs here:
 *[Bug-reports](https://github.com/AlinaPoliakova/test/tree/main/Bug-reports)
 *[JSON](https://github.com/AlinaPoliakova/test/tree/main/JSON)
 *[Pairwise testing](https://github.com/AlinaPoliakova/test/tree/main/Pairwise%20testing)
