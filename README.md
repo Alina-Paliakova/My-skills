@@ -6,7 +6,8 @@ ____
 ____
 ### You can check out all docs here:
 *[Bug-reports](https://github.com/AlinaPoliakova/test/tree/main/Bug-reports)
+*[Check lists](https://github.com/AlinaPoliakova/test/tree/main/Check%20lists)
+*[Test cases](https://github.com/AlinaPoliakova/test/tree/main/Test%20cases)
+*[Test design](https://github.com/AlinaPoliakova/test/tree/main/Test%20design)
 *[JSON](https://github.com/AlinaPoliakova/test/tree/main/JSON)
-*[Pairwise testing](https://github.com/AlinaPoliakova/test/tree/main/Pairwise%20testing)
 *[SQL](https://github.com/AlinaPoliakova/test/tree/main/sql)
-
