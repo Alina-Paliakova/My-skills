@@ -6,7 +6,7 @@
 #### Get an api key.
 
 ## Query Parameters
-![](https://drive.google.com/file/d/1goaMdF1KFIrWlrIO04NN_r7NTgJXxxlC/view?usp=sharing)
+![](https://i.postimg.cc/xCVtxW8d/apod.jpg)
 ### **Description of Request Parameters:**
 ### **date** The date of the APOD image. Defaults to today's date. 1995-06-16 is the first day an APOD picture was posted, so date can't be less than that day. Also date can't be more than the current date. 
 ### **start_date** The date indicating the start of a date range. Can't be used with date.
