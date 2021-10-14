@@ -1,4 +1,4 @@
-## API Testing of the NASA the Astronomy Picture of the Day section with Postman.
+## API Testing of the NASA the Astronomy Picture of the Day section with Postman.:star2:
 
 ### **Pre-conditions:**
 #### Open https://api.nasa.gov/, 
@@ -6,7 +6,7 @@
 #### Get an api key.
 
 ## Query Parameters
-[Parameters](https://drive.google.com/drive/folders/1sWB-bOjcuz_xS2CdF-kb7y0oD0SLG9k8)
+![](https://drive.google.com/file/d/1goaMdF1KFIrWlrIO04NN_r7NTgJXxxlC/view?usp=sharing)
 ### **Description of Request Parameters:**
 ### **date** The date of the APOD image. Defaults to today's date. 1995-06-16 is the first day an APOD picture was posted, so date can't be less than that day. Also date can't be more than the current date. 
 ### **start_date** The date indicating the start of a date range. Can't be used with date.
@@ -14,7 +14,7 @@
 ### **thrumbs** A boolean parameter inidcating whether the API should return a thumbnail image URL for video files. If set to True, the API returns URL of video thumbnail. If an APOD is not a video, this parameter is ignored.
 ### **count** A positive integer, no more than 100. If this is specified then count randomly chosen images will be returned in a JSON array.
 
-### *Example query:*
+### **Example query:**
 ### https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 ________
 
@@ -22,7 +22,7 @@ ________
 
 ### :small_blue_diamond:**Date:** 
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-10-14
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "copyright": "Ignacio Diaz Bobillo",
@@ -37,7 +37,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-10-14
 ```
 ### :small_blue_diamond:**End_date:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&end_date
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "copyright": "Ignacio Diaz Bobillo",
@@ -52,7 +52,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&end_date
 ```
 ### :small_blue_diamond:**First_date:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=1995-06-16
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "date": "1995-06-16",
@@ -66,7 +66,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=1995-06-16
 ```
 ### :small_blue_diamond:**Start_date:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "copyright": "Ignacio Diaz Bobillo",
@@ -81,7 +81,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date
 ```
 ### :small_blue_diamond:**Date_range:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2021-10-11&end_date=2021-10-13
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 [
     {
@@ -116,7 +116,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2021-10-11&end_d
 ```
 ### :small_blue_diamond:**Thumbs=true:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&thumbs=true
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "copyright": "Ignacio Diaz Bobillo",
@@ -131,7 +131,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&thumbs=true
 ```
 ### :small_blue_diamond:**Thumbs=false:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&thumbs=false
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "copyright": "Ignacio Diaz Bobillo",
@@ -146,7 +146,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&thumbs=false
 ```
 ### :small_blue_diamond:**Count=3:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=3
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 [
     {
@@ -184,7 +184,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=3
 
 ### :small_blue_diamond:**First_date-1:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=1995-06-15
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "code": 400,
@@ -194,7 +194,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=1995-06-15
 ```
 ### :small_blue_diamond:**End_date+1:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-10-15
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "code": 400,
@@ -204,7 +204,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2021-10-15
 ```
 ### :small_blue_diamond:**Count=101:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=101
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "code": 400,
@@ -214,7 +214,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=101
 ```
 ### :small_blue_diamond:**Count=-1:**
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=-1
-### See Return Object :arrow_down_small:
+### See Return Object :small_red_triangle_down:
 ```JSON
 {
     "code": 400,
