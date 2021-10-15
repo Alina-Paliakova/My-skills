@@ -11,3 +11,4 @@ ____
 *[Test design](https://github.com/AlinaPoliakova/test/tree/main/Test%20design)
 *[JSON](https://github.com/AlinaPoliakova/test/tree/main/JSON)
 *[SQL](https://github.com/AlinaPoliakova/test/tree/main/sql)
+*[API Testing](https://github.com/AlinaPoliakova/My-skills/tree/main/API%20Testing)
